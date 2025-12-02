@@ -15,43 +15,43 @@ class RetrievalEvaluator:
         test_queries = [
             {
                 'query': 'performance issues crashes',
-                'relevant_docs': [2,6,11,15,16,17]  # Add manually after inspection
+                'relevant_docs': [23155,23150]  # Add manually after inspection
             },
             {
                 'query': 'great story campaign',
-                'relevant_docs': [1,2,3,4,5,7,8,9,11,13,14,19]
+                'relevant_docs': [62192,62300,35190,62145,61720,62030,61684,61898,11010]
             },
             {
                 'query': 'multiplayer bugs server',
-                'relevant_docs': [1,2,3,4,5,6,7,8,9,12,14,18]
+                'relevant_docs': [62101,29459,29685,21717,21292,19777,31498,56902,40209,20295,29660,20429,39966]
             },
             {
                 'query': 'beautiful graphics art style',
-                'relevant_docs': []
+                'revelant_docs': [9920,7546,14002,44559,44389,14656,18615,39468,65305,58202,39677,33939,4741,69049]
             },
             {
                 'query': 'difficult challenging gameplay',
-                'relevant_docs': []
+                'relevant_docs': [62296,16289,5340,40157,34121,4550,65151,32131]
             },
             {
                 'query': 'worth the price',
-                'relevant_docs': []
+                'relevant_docs': [69066,56866,52158,57586,48064,12009,69083,38225,12261,48301,37301,58988,59232,47841,59428]
             },
             {
                 'query': 'bugs glitches broken',
-                'relevant_docs': []
+                'relevant_docs': [66754,13352,5453,25819,5161,67311,55539,19445,21134,53634,9567,9486,41886,2690052682,33478,53481]
             },
             {
                 'query': 'addictive fun gameplay loop',
-                'relevant_docs': []
+                'relevant_docs': [65066,15849,48233,20586,46638,4485,17748,25646,22727,31739,64915,58085,60895,15853,68893,51090,46187]
             },
             {
                 'query': 'boring repetitive missions',
-                'relevant_docs': []
+                'relevant_docs': [23151]
             },
             {
                 'query': 'optimization frame rate',
-                'relevant_docs': []
+                'relevant_docs': [52397,22437,24640,51479,55562,44903,63200,23991,14325,22490,49253,21965,45594,21934,21905,62572,55368,22129]
             }
         ]
         return test_queries
