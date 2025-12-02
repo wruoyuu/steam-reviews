@@ -1,1 +1,6 @@
 venv/
+__pycache__/
+data/processed/reviews_with_sentiment.csv
+data/processed/reviews_processed.csv
+data/review_*.json
+data/
