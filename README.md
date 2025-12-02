@@ -5,6 +5,10 @@ Repository for UIUC's CS 410 class's project.
 
 A comprehensive information retrieval and text mining system for Steam game reviews that compares multiple search algorithms (BM25, TF-IDF, FAISS (removed)) and performs aspect-based sentiment analysis.
 
+## Link to Presentation
+
+https://mediaspace.illinois.edu/media/t/1_ucmzf20e
+
 ## Project Overview
 
 This system helps gamers find relevant information within Steam reviews by:
