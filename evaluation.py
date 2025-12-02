@@ -27,7 +27,7 @@ class RetrievalEvaluator:
             },
             {
                 'query': 'beautiful graphics art style',
-                'revelant_docs': [9920,7546,14002,44559,44389,14656,18615,39468,65305,58202,39677,33939,4741,69049]
+                'relevant_docs': [9920,7546,14002,44559,44389,14656,18615,39468,65305,58202,39677,33939,4741,69049]
             },
             {
                 'query': 'difficult challenging gameplay',
@@ -430,11 +430,11 @@ if __name__ == "__main__":
     elif choice == '2':
         # Load existing test queries
         try:
-            with open('data/evaluation/test_queries.json', 'r') as f:
-                test_queries = json.load(f)
-            
-            # Evaluate
+            # Use the hardcoded test queries from create_test_queries()
             evaluator = RetrievalEvaluator(df, retrievers)
+            test_queries = evaluator.create_test_queries()  # Use hardcoded Doc IDs
+                
+            # Evaluate
             comparison = evaluator.compare_retrievers(test_queries)
             
             # Save results
